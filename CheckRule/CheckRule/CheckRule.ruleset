@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Правила для CheckRule" Description="Правила анализа кода для CheckRule.vcxproj." ToolsVersion="17.0">
+  <Include Path="C:\Program Files\Microsoft Visual Studio\2022\community\team tools\static analysis tools\rule sets\allrules.ruleset" Action="Default" />
+</RuleSet>
