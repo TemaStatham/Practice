@@ -1,17 +1,11 @@
-
-#include <iostream>
+#include <string>
 
 namespace
 {
-    class ClassMove
-    {
-    public:
-        void moveTest() noexcept
-        {
-            int num = 5;
-            const int refNum = std::move(num);
-            printf("%d %d", num, refNum);
-        }
-    };
-
+	void test()
+	{
+		auto s1 = std::string();
+		auto s2 = std::move(s1);
+		s1.append("a");
+	}
 }

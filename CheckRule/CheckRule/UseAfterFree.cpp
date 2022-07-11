@@ -25,22 +25,6 @@ namespace
 	private:
 		const S& m_s;
 	};
-	
-#if 0
-	class Used
-	{
-
-
-		void usedAfterFree() noexcept {
-			int *p = new(std::nothrow) int[8];
-			printf("%d", *p);
-			*p = 10;
-			printf("%d", *p);
-			delete[] p;
-			printf("%d", *p);
-		}
-	};
-#endif
 
 	void test()
 	{
