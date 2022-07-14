@@ -1,4 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RuleSet Name="Правила для CheckRule" Description="Правила анализа кода для CheckRule.vcxproj." ToolsVersion="17.0">
-  <Include Path="C:\Program Files\Microsoft Visual Studio\2022\community\team tools\static analysis tools\rule sets\allrules.ruleset" Action="Default" />
+  <Include Path="c:\program files\microsoft visual studio\2022\community\team tools\static analysis tools\rule sets\allrules.ruleset" Action="Default" />
+  <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+    <Rule Id="CA1002" Action="None" />
+    <Rule Id="CA1004" Action="None" />
+  </Rules>
+  <Rules AnalyzerId="Microsoft.Analyzers.NativeCodeAnalysis" RuleNamespace="Microsoft.Rules.Native">
+    <Rule Id="C26105" Action="Warning" />
+    <Rule Id="C26106" Action="Warning" />
+    <Rule Id="C26110" Action="Warning" />
+    <Rule Id="C26111" Action="Warning" />
+    <Rule Id="C26112" Action="Warning" />
+  </Rules>
 </RuleSet>
